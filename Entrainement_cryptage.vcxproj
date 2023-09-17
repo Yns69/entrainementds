@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ccesar.cpp" />
     <ClCompile Include="Entrainement_cryptage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ccesar.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
